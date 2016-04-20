@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: porjetIPW_production
-  username: porjetIPW
-  password: <%= ENV['PORJETIPW_DATABASE_PASSWORD'] %>
+  username: ruby
+  password: ruby
